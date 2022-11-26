@@ -1,0 +1,1 @@
+THis is a marking scheme to garde based on their score. THe score are graded based on a range. Stdent who score a grade that if higher than 79 are give an 'A' garde while stdent below 49 marks are given an'E' grade
