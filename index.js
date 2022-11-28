@@ -6,7 +6,8 @@ submitSpeed.addEventListener("click",()=>{
 });
 
 const speedDetector = (speed) => {
-    //speed is exceeding 12 points alert 
+   if(!(speed<0)){
+      //speed is exceeding 12 points alert 
   if ((speed - 70) / 5 > 12) {
     alert("licence suspended");
   }
@@ -17,4 +18,7 @@ const speedDetector = (speed) => {
   } else {
     alert("points: " + (speed - 70) / 5);
   }
+   }else{
+     alert("Invalid speed")
+   }
 };
