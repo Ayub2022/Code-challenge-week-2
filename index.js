@@ -16,7 +16,7 @@ const speedDetector = (speed) => {
     alert("ok");
     //speed exceeds 70 alert
   } else {
-    alert("points: " + (speed - 70) / 5);
+    alert("points: " + Math.round((speed - 70) / 5));
   }
    }else{
      alert("Invalid speed")
